@@ -1,0 +1,16 @@
+{
+  "name": "cc-workflow-evolution",
+  "version": "0.1.0",
+  "description": "Claude Code workflow evolution - SiliconFlow summarizer validation version",
+  "bin": {
+    "cc-workflow-evolution": "./install.js"
+  },
+  "files": [
+    "install.js",
+    "uninstall.js",
+    "scripts/",
+    "commands/",
+    "templates/"
+  ],
+  "license": "MIT"
+}
