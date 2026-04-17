@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # cc-workflow-evolution
 
 Claude Code 扩展包 - 对话历史自动总结（SiliconFlow 验证版）
@@ -7,7 +8,7 @@ Claude Code 扩展包 - 对话历史自动总结（SiliconFlow 验证版）
 - 自动解析 Claude Code 会话历史
 - 调用 SiliconFlow API 生成结构化总结
 - 版本化存储，支持历史回溯
-- 手动触发（`/workflow`）+ 自动触发（每 15 次工具调用）
+- 手动触发（`/workflow`）+ 自动触发（每 10 次工具调用）
 
 ## 安装
 
@@ -26,9 +27,9 @@ node install.js
     "SILICONFLOW_API_KEY": "sk-xxx",
     "SILICONFLOW_BASE_URL": "https://api.siliconflow.cn/v1",
     "SILICONFLOW_MODEL": "Qwen/Qwen2.5-7B-Instruct",
-    "WORKFLOW_THRESHOLD": "15",
-    "WORKFLOW_MIN_NEW_MESSAGES": "5",
-    "WORKFLOW_MIN_INTERVAL": "600",
+    "WORKFLOW_THRESHOLD": "10",
+    "WORKFLOW_MIN_NEW_MESSAGES": "3",
+    "WORKFLOW_MIN_INTERVAL": "300",
     "SUMMARY_LANGUAGE": "zh-CN"
   }
 }
@@ -85,3 +86,6 @@ bash demo.sh
 ## 开发文档
 
 详见 `cc-workflow-evolution-summary-validation-design.md`
+=======
+# cc-workflow-evolution
+>>>>>>> 188b572ebc3f4ac0984969aa812c5f5acf48ddc7
